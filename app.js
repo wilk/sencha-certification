@@ -3,7 +3,7 @@ Ext.Loader.setConfig({
 });
 
 Ext.onReady(function () {
-    var dependencies = ['SCE.ClassSystem', 'SCE.Templates', 'SCE.Data', 'SCE.Tree', 'SCE.Chart', 'SCE.Views'];
+    var dependencies = ['SCE.ClassSystem', 'SCE.Templates', 'SCE.Data', 'SCE.Trees', 'SCE.Charts', 'SCE.Views', 'SCE.Grids'];
 
     Ext.application({
         name: 'SCE',
